@@ -49,11 +49,15 @@ Your task is to initialize a Python project from scratch using modern tooling. Y
 1.  **Write the Script:** Open the `main.py` file and add the following code:
     ```python
     import numpy as np
+
+
     def add_two_integer_lists(a: list[int], b: list[str]) -> int:
-        arr=np.array(a)+np.array(b)
+        arr = np.array(a) + np.array(b)
         print(f"My added array: {arr}")
+
+
     if __name__ == "__main__":
-        add_two_integer_lists([1,2,3],[4,5,6])
+        add_two_integer_lists([1, 2, 3], [4, 5, 6])
     ```
 
 2. **Note the Issues:** This code has multiple issues, namely.

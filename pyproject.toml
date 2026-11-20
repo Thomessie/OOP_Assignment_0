@@ -1,0 +1,19 @@
+[project]
+name = "oop-assignment-0"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "thomlanjouw", email = "thomlanjouw@hotmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "numpy==1.26.0",
+]
+
+[project.scripts]
+oop-assignment-0 = "oop_assignment_0:main"
+
+[build-system]
+requires = ["uv_build>=0.12.12,<0.13.0"]
+build-backend = "uv_build"
